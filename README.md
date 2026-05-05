@@ -43,4 +43,75 @@ typedef struct binary_tree_s
 | `15-binary_tree_is_full.c` | `int binary_tree_is_full(const binary_tree_t *tree)` | Checks if a tree is full |
 | `16-binary_tree_is_perfect.c` | `int binary_tree_is_perfect(const binary_tree_t *tree)` | Checks if a tree is perfect |
 | `17-binary_tree_sibling.c` | `binary_tree_t *binary_tree_sibling(binary_tree_t *node)` | Finds the sibling of a node |
-| `18-binary_tree_uncle.c` | `binary_tree_t *binary_tree_uncle(bin
+| `18-binary_tree_uncle.c` | `binary_tree_t *binary_tree_uncle(binary_tree_t *node)` | Finds the uncle of a node |
+
+---
+
+## Concepts Covered
+
+### Node Operations
+- Create a new node with a given value and parent
+- Insert nodes as left or right children (handling existing children)
+- Delete an entire tree recursively (no memory leaks)
+
+### Node Checks
+- Is Leaf — a node with no children
+- Is Root — a node with no parent
+
+### Tree Traversals
+- Pre-order — Root, Left, Right
+- In-order — Left, Root, Right
+- Post-order — Left, Right, Root
+
+### Measurements
+- Height — longest path from root to a leaf
+- Depth — distance from a node to the root
+- Size — total number of nodes
+- Leaves — nodes with no children
+- Nodes — nodes with at least one child
+- Balance Factor — difference between left and right subtree heights
+
+### Structural Checks
+
+
+### Relationships
+
+
+---
+
+## Compilation
+
+```bash
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c <main_file.c> <function_file.c> 0-binary_tree_node.c -o output
+```
+
+---
+
+## Example Output
+
+```
+       .-------(098)-------.
+  .--(012)--.         .--(402)--.
+(006)     (016)     (256)     (512)
+```
+
+---
+
+## Requirements
+
+
+---
+
+## Authors
+
+**Sara Alkhubaizi**
+GitHub: [@SarahAlkhubaizy](https://github.com/SarahAlkhubaizy)
+
+**Abdulmalik AlAqeel**
+GitHub: [@AbdulmalikAlAqeel](https://github.com/SarahAlkhubaizy/holbertonschool-binary_trees/commits?author=AbdulmalikAlAqeel)
+
+---
+
+## Repository
+
+GitHub: [holbertonschool-binary_trees](https://github.com/SarahAlkhubaizy/holbertonschool-binary_trees)

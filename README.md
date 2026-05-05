@@ -73,7 +73,7 @@ typedef struct binary_tree_s
 
 ### Structural Checks
 - Full Tree — every node has 0 or 2 children
-
+- Perfect Tree — all internal nodes have 2 children and all leaves are at the same level
 ### Relationships
 
 

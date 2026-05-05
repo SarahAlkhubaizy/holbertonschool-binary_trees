@@ -72,7 +72,7 @@ typedef struct binary_tree_s
 - Balance Factor — difference between left and right subtree heights
 
 ### Structural Checks
-
+- Full Tree — every node has 0 or 2 children
 
 ### Relationships
 

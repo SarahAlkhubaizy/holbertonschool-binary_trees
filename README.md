@@ -102,6 +102,7 @@ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 binary_tree_print.c <main_file.c>
 All files compiled on Ubuntu 20.04 LTS using gcc
 Code follows Betty style guidelines
 No global variables
+No more than 5 functions per file
 
 ---
 

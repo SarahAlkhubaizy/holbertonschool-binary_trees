@@ -77,7 +77,7 @@ typedef struct binary_tree_s
 
 ### Relationships
 - Sibling — the other child of a node's parent
-
+- Uncle — the sibling of a node's parent
 ---
 
 ## Compilation
